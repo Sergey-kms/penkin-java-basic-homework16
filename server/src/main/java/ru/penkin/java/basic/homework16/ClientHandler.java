@@ -5,7 +5,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-public class ClientHandler {
+public class ClientHandler {           // vetka_dz18_jdbc
     private Server server;
     private Socket socket;
     private DataOutputStream out;
@@ -136,7 +136,7 @@ public class ClientHandler {
             sendMessage("СЕРВЕР: указанное имя пользователя уже занято");
             return false;
         }
-        server.getUserService().createNewUser(login, password, registrationUsername, "user");
+        server.getUserService().createNewUser(login, password, registrationUsername);
         username = registrationUsername;
         sendMessage("/authok " + username);
         sendMessage("СЕРВЕР: " + username + ", вы успешно прошли регистрацию, добро пожаловать в чат!");

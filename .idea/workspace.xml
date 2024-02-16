@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8059ee-037c-410d-b057-662084b1a3db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/ru/penkin/java/basic/homework16/client/ClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/ru/penkin/java/basic/homework16/client/callbaks/Callback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/ru/penkin/java/basic/homework16/client/callbaks/ClientApplicationWithCallbacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/ru/penkin/java/basic/homework16/client/callbaks/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/ru/penkin/java/basic/homework16/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/ru/penkin/java/basic/homework16/InMemoryUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/ru/penkin/java/basic/homework16/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/ru/penkin/java/basic/homework16/ServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/ru/penkin/java/basic/homework16/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +22,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2biVT5SIlmOR4Q7Sct3rrvspCxz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,8 +44,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "vetka1__dz16",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/serge/Desktop/23_ДЗ_16",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +55,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ServerApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.penkin.java.basic.homework16.ServerApplication" />
       <module name="server" />
       <extension name="coverage">

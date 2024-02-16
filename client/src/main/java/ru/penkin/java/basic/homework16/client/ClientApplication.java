@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ClientApplication {  // vetka1_dz16
+public class ClientApplication {
     static String username;
 
     public static void main(String[] args) {

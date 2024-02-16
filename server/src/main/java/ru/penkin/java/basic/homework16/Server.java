@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Server {  // vetka1_dz16
+public class Server {
     private int port;
     private List<ClientHandler> clients;
     private UserService userService;
@@ -23,7 +23,7 @@ public class Server {  // vetka1_dz16
     public void start() {
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.printf("Сервер запущен на порту %d. Ожидание подключения клиентов\n", port);
-            userService = new InMemoryUserService();
+            userService = new DataBaseUserService();
             System.out.println("Запущен сервис для работы с пользователями");
             while (true) {
                 Socket socket = serverSocket.accept();
